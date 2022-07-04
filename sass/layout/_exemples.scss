@@ -20,24 +20,24 @@
   color: var(--primary-text-color);
 }
 
-.exemples-list {
+.exemples {
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
-}
 
-.exemples-item {
-  flex-basis: calc(100% / 3 - 30px);
-  margin: 15px;
-  border: 1px solid #eeeeee;
-  cursor: pointer;
-  &:hover .exemples-hover-text {
-    transform: translateY(0);
-  }
-  &:hover,
-  &:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
+  &__card {
+    flex-basis: calc(100% / 3 - 30px);
+    margin: 15px;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+    &:hover .exemples-hover-text {
+      transform: translateY(0);
+    }
+    &:hover,
+    &:focus {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
   }
 }
 

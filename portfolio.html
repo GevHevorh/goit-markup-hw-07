@@ -24,21 +24,21 @@
     <!-- Шапка-->
     <header class="page-header">
       <div class="container">
-        <nav class="header-nav">
+        <nav class="nav">
           <a href="/" lang="en" class="logo link"
             ><span class="logo-part link">Web</span>Studio</a
           >
-          <ul class="site-nav">
-            <li class="header-item">
-              <a href="./index.html" class="header-link link">Студия</a>
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="./index.html" class="menu__link link">Студия</a>
             </li>
-            <li class="header-item">
-              <a href="./portfolio.html" class="header-link link current"
+            <li class="menu__item">
+              <a href="./portfolio.html" class="menu__link link current"
                 >Портфолио</a
               >
             </li>
-            <li class="header-item">
-              <a href="" class="header-link link">Контакты</a>
+            <li class="menu__item">
+              <a href="" class="menu__link link">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -69,25 +69,33 @@
       <section class="portfolio-section">
         <div class="container">
           <h1 class="visually-hidden">Наши проекты</h1>
-          <ul class="hero-list">
-            <li class="hero-item">
-              <button type="button" class="hero-button current">Все</button>
+          <ul class="menu-list">
+            <li class="menu-list__item">
+              <button type="button" class="menu-list__menu-btn current">
+                Все
+              </button>
             </li>
-            <li class="hero-item">
-              <button type="button" class="hero-button">Приложения</button>
+            <li class="menu-list__item">
+              <button type="button" class="menu-list__menu-btn">
+                Приложения
+              </button>
             </li>
-            <li class="hero-item">
-              <button type="button" class="hero-button">Дизайн</button>
+            <li class="menu-list__item">
+              <button type="button" class="menu-list__menu-btn">Дизайн</button>
             </li>
-            <li class="hero-item">
-              <button type="button" class="hero-button">Маркетинг</button>
+            <li class="menu-list__item">
+              <button type="button" class="menu-list__menu-btn">
+                Маркетинг
+              </button>
             </li>
-            <li class="hero-item">
-              <button type="button" class="hero-button">Веб-сайты</button>
+            <li class="menu-list__item">
+              <button type="button" class="menu-list__menu-btn">
+                Веб-сайты
+              </button>
             </li>
           </ul>
-          <ul class="exemples-list">
-            <li class="exemples-item">
+          <ul class="exemples">
+            <li class="exemples__card">
               <div class="exemples-hover-wrap">
                 <img
                   src="./images/projectsimg/technokriack.jpg"
@@ -104,7 +112,7 @@
                 <p class="exemple-type">Веб-сайт</p>
               </div>
             </li>
-            <li class="exemples-item">
+            <li class="exemples__card">
               <div class="exemples-hover-wrap">
                 <img
                   src="./images/projectsimg/basketposter.jpg"
@@ -123,7 +131,7 @@
                 <p class="exemple-type">Дизайн</p>
               </div>
             </li>
-            <li class="exemples-item">
+            <li class="exemples__card">
               <div class="exemples-hover-wrap">
                 <img
                   src="./images/projectsimg/restaurantseafood.jpg"
@@ -142,7 +150,7 @@
                 <p class="exemple-type">Приложение</p>
               </div>
             </li>
-            <li class="exemples-item">
+            <li class="exemples__card">
               <div class="exemples-hover-wrap">
                 <img
                   src="./images/projectsimg/primeearpods.jpg"
@@ -161,7 +169,7 @@
                 <p class="exemple-type">Маркетинг</p>
               </div>
             </li>
-            <li class="exemples-item">
+            <li class="exemples__card">
               <div class="exemples-hover-wrap">
                 <img
                   src="./images/projectsimg/boxes.jpg"
@@ -180,7 +188,7 @@
                 <p class="exemple-type">Приложение</p>
               </div>
             </li>
-            <li class="exemples-item">
+            <li class="exemples__card">
               <div class="exemples-hover-wrap">
                 <img
                   src="./images/projectsimg/inspirationmac.jpg"
@@ -199,7 +207,7 @@
                 <p class="exemple-type">Веб-сайт</p>
               </div>
             </li>
-            <li class="exemples-item">
+            <li class="exemples__card">
               <div class="exemples-hover-wrap">
                 <img
                   src="./images/projectsimg/limitededition.jpg"
@@ -218,7 +226,7 @@
                 <p class="exemple-type">Дизайн</p>
               </div>
             </li>
-            <li class="exemples-item">
+            <li class="exemples__card">
               <div class="exemples-hover-wrap">
                 <img
                   src="./images/projectsimg/labproject.jpg"
@@ -268,8 +276,8 @@
             >
           </div>
           <address>
-            <ul class="footer-list">
-              <li class="footer-list-item">
+            <ul class="footer-contacts">
+              <li class="footer-contacts__item">
                 <a
                   href="https://goo.gl/maps/MhNTVuYmyWMfQof16"
                   target="_blank"
@@ -278,12 +286,12 @@
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="footer-list-item">
+              <li class="footer-contacts__item">
                 <a href="mailto:info@example.com" class="contact-list link"
                   >info@example.com</a
                 >
               </li>
-              <li class="footer-list-item">
+              <li class="footer-contacts__item">
                 <a href="tel:+380991111111" class="contact-list link"
                   >+38 099 111 11 11</a
                 >
@@ -293,32 +301,32 @@
         </div>
 
         <div class="footer-soc">
-          <p class="footer-soc-title">ПРИСОЕДИНЯЙТЕСЬ</p>
-          <ul class="footer-soc-list list">
-            <li class="footer-soc-item">
-              <a href="" class="footer-soc-link link">
-                <svg class="footer-soc-icon" width="20" height="20">
+          <p class="footer-soc__title">ПРИСОЕДИНЯЙТЕСЬ</p>
+          <ul class="footer-soc__list">
+            <li class="footer-soc__item">
+              <a href="" class="footer-soc__link">
+                <svg class="footer-soc__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-soc-item">
-              <a href="" class="footer-soc-link link">
-                <svg class="footer-soc-icon" width="20" height="20">
+            <li class="footer-soc__item">
+              <a href="" class="footer-soc__link">
+                <svg class="footer-soc__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-soc-item">
-              <a href="" class="footer-soc-link link">
-                <svg class="footer-soc-icon" width="20" height="20">
+            <li class="footer-soc__item">
+              <a href="" class="footer-soc__link">
+                <svg class="footer-soc__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-soc-item">
-              <a href="" class="footer-soc-link link">
-                <svg class="footer-soc-icon" width="20" height="20">
+            <li class="footer-soc__item">
+              <a href="" class="footer-soc__link">
+                <svg class="footer-soc__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -326,16 +334,16 @@
           </ul>
         </div>
         <div class="subscribe">
-          <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-          <div class="online-form">
+          <h2 class="subscribe__title">Подпишитесь на рассылку</h2>
+          <div class="form">
             <input
               type="email"
               name="user-mail-footer"
-              class="subscribe-input"
+              class="form__input"
               id="user-mail-footer"
               placeholder="E-mail"
             />
-            <div class="footer-button-wrap">
+            <div class="form__button-wrap">
               <button type="submit" class="button-title">Подписаться</button>
               <svg class="send-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>

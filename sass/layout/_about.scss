@@ -1,17 +1,17 @@
-.about-items {
+.pic-items {
   display: flex;
   justify-content: space-between;
   margin: 0;
 }
 
-.about-img {
+.pic-items__img {
   position: relative;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.about-img-caption {
+.pic-items__caption {
   position: absolute;
   padding: 27px;
   bottom: 0px;

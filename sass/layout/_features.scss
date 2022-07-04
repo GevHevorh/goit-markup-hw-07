@@ -1,4 +1,4 @@
-.feature-title {
+.feature {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
@@ -9,7 +9,7 @@
   height: 101px;
 } */
 
-.feature-item-list:not(:last-child) {
+.feature__item-list:not(:last-child) {
   margin-right: 30px;
   /* margin-bottom: 94px; */
 }
