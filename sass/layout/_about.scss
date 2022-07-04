@@ -4,10 +4,10 @@
   margin: 0;
 }
 
-.about-img:not(:last-child) {
-  margin-right: 30px;
-  & {
-    position: relative;
+.about-img {
+  position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
   }
 }
 

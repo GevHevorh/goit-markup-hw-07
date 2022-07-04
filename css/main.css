@@ -38,6 +38,14 @@ img {
   max-width: 100%;
 }
 
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -50,14 +58,6 @@ img {
   -webkit-clip-path: inset(50%);
           clip-path: inset(50%);
   margin: -1px;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style: none;
 }
 
 .container {
@@ -480,11 +480,11 @@ img {
   margin: 0;
 }
 
-.about-img:not(:last-child) {
-  margin-right: 30px;
+.about-img {
+  position: relative;
 }
 .about-img:not(:last-child) {
-  position: relative;
+  margin-right: 30px;
 }
 
 .about-img-caption {
