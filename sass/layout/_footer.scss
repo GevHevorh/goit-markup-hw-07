@@ -63,6 +63,9 @@
     height: 44px;
     margin-left: 10px;
   }
+  &__item:first-child {
+    margin-left: 0;
+  }
   &__link {
     display: flex;
     align-items: center;
@@ -77,12 +80,7 @@
       background-color: var(--accent-color);
     }
   }
-}
-
-.footer-soc__item:first-child {
-  margin-left: 0;
-}
-
-.footer-soc__icon {
-  fill: var(--primary-bg-color);
+  &__icon {
+    fill: var(--primary-bg-color);
+  }
 }

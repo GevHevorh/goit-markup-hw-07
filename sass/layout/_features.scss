@@ -2,17 +2,16 @@
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
+  &__item-list:not(:last-child) {
+    margin-right: 30px;
+    /* margin-bottom: 94px; */
+  }
 }
 
 /* .feature-item-list {
   width: 270px;
   height: 101px;
 } */
-
-.feature__item-list:not(:last-child) {
-  margin-right: 30px;
-  /* margin-bottom: 94px; */
-}
 
 .features-icon {
   display: flex;
@@ -30,12 +29,12 @@
     content: '';
 } */
 
-.features-item::before {
-  display: block;
+// .features-item::before {
+//   display: block;
 
-  content: "";
-  height: 120px;
-}
+//   content: "";
+//   height: 120px;
+// }
 
 .feature-item {
   font-style: normal;
